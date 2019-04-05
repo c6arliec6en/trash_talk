@@ -1,9 +1,15 @@
 const inputs = document.querySelectorAll('.target')
+const cards = document.querySelectorAll('.full-card')
 
-inputs.forEach(input => input.addEventListener('click', (event) => {
+cards.forEach(card => card.addEventListener('click', (event) => {
   inputs.forEach(radio => {
     radio.checked = false
   })
-  input.checked = true
+  cards.forEach(card => {
+    card.classList.remove('choose-this')
+  })
+  card.lastElementChild.firstElementChild.checked = true
+  card.classList.toggle('choose-this')
 }))
+
 

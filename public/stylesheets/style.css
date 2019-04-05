@@ -1,12 +1,49 @@
-.target {
-  font-size: 50px
-}
-
-
 .choose {
   font-size: 30px;
+  margin: 0 auto;
+  cursor: pointer
 }
 
-.choose input a {
-  margin-left: 15px;
+input[type="radio"]{
+  display: none;
+}
+
+.full-card {
+  cursor: pointer;
+}
+
+.people-card {
+  height:275px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+.people-dev {
+  background-image: url(/image/dev.jpg)
+}
+
+.people-des {
+  background-image: url(/image/des.jpg)
+}
+.people-founder {
+  background-image: url(/image/foun.jpg)
+}
+
+.choose-this {
+  /* border:1px solid blue; */
+  transform: scale(1.05);
+  box-shadow:2px 2px 3px rgba(20%,20%,40%,0.5)
+}
+
+.button {
+  border-radius: 20px;
+  padding: 15px 15px;
+  font-size: 18px;
+  border:2px solid rgb(243, 188, 104);
+  color:rgb(170, 109, 16)
+}
+
+.feedback {
+  font-size: 30px;
 }
