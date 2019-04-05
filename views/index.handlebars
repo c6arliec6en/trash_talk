@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="col-12 row justify-content-center">
+    <h1 class="">你想對誰說幹話？</h1>
+  </div>
+  <div class="">
+    <form action="" method="POST">
+      <div class="col-12 row justify-content-center">
+        <div class="col-4">
+          <div style="height:275px"><img src="/image/dev.jpg" alt="angry-dev" width="100%"></div>
+          <label class="choose"><input type="radio" name="engineer" class="target" id="angry-engineer"
+              {{#if target.engineer}}checked{{/if}}>工程師</label>
+        </div>
+        <div class="col-4">
+          <div style="height:275px"><img src="/image/des.jpg" alt="angry-des" width="100%"></div>
+          <label class="choose"><input type="radio" name="designer" class="target" id="angry-designer"
+              {{#if target.designer}}checked{{/if}}>設計師</label>
+        </div>
+        <div class="col-4">
+          <div style="height:275px"><img src="/image/foun.jpg" alt="angry-foun" width="100%"></div>
+          <label class="choose"><input type="radio" name="founder" class="target" id="angry-founder"
+              {{#if target.founder}}checked{{/if}}>創業家</label>
+
+        </div>
+      </div>
+
+      <div class="col-12 row justify-content-center mt-5">
+        <div>
+          <button type="submit" class="button mr-5 mt-1">產生幹話</button>
+        </div>
+        <input type="textarea" class="col-8" style="height:100px" value="{{trash}}">
+      </div>
+
+    </form>
+  </div>
+</div>
