@@ -2,6 +2,7 @@
 工程師？設計師？創業家？你受夠了嗎？
 ## How to Install
 ```
+Open your terminal
 1. git clone https://github.com/c6arliec6en/trash_talk.git
 2. move to the file
 3. npm i express (Manage your route)
@@ -11,9 +12,10 @@
 
 ## How to Start the server
 ```
-1. run node app.js
+Open your terminal
+1. run **node app.js**
 2. open your brower
-3. key http://localhost:3000 in search bar 
+3. key **http://localhost:3000** in search bar 
 ```
 
 ## How to Use
