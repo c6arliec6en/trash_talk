@@ -19,6 +19,7 @@ app.get('/', (req, res) => {
 app.post('/', (req, res) => {
   const target = req.body
   const trash = generateTrash(target)
+  console.log(req.body)
   res.render('index', { target: target, trash: trash })
 })
 
