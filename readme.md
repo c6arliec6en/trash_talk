@@ -4,7 +4,7 @@
 ```
 Open your terminal
 1. git clone https://github.com/c6arliec6en/trash_talk.git
-2. move to the file
+2. cd trash_talk
 3. npm i express (Manage your route)
 4. npm i express-handlebars (Set template)
 5. npm i body-parser (Let server can handle POST information from client-end)
@@ -13,9 +13,9 @@ Open your terminal
 ## How to Start the server
 ```
 Open your terminal
-1. run __node app.js__
+1. node app.js
 2. open your brower
-3. key __http://localhost:3000__ in search bar 
+3. key http://localhost:3000 in search bar 
 ```
 
 ## How to Use
