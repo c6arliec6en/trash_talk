@@ -1,5 +1,8 @@
 # 幹話產生器
 工程師？設計師？創業家？你受夠了嗎？
+![Screen](https://github.com/c6arliec6en/trash_talk/screen.png)
+
+
 ## How to Install
 ```
 Open your terminal
