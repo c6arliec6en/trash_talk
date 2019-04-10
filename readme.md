@@ -13,9 +13,9 @@ Open your terminal
 ## How to Start the server
 ```
 Open your terminal
-1. run **node app.js**
+1. run __node app.js__
 2. open your brower
-3. key **http://localhost:3000** in search bar 
+3. key __http://localhost:3000__ in search bar 
 ```
 
 ## How to Use
